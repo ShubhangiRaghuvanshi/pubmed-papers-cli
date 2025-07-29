@@ -31,8 +31,7 @@ Corresponding Author Email
 
 📂 Project Structure
 graphql
-Copy
-Edit
+
 pubmed_papers/
 │── pubmed_papers/
 │   ├── __init__.py
@@ -43,33 +42,18 @@ pubmed_papers/
 ├── README.md
 ├── pyproject.toml     # Poetry configuration
 └── poetry.lock
-🔧 Installation
-1️⃣ Clone the repository
-bash
-Copy
-Edit
+🔧 Installation1️⃣ Clone the repository
+
 git clone https://github.com/ShubhangiRaghuvanshi/pubmed-papers-cli.git
 cd pubmed-papers-cli
 2️⃣ Install dependencies using Poetry
-bash
-Copy
-Edit
 poetry install
 ▶️ Usage
 📌 Run the CLI
-bash
-Copy
-Edit
 poetry run get-papers-list "breast cancer"
 📌 Save results to a CSV file
-bash
-Copy
-Edit
 poetry run get-papers-list "breast cancer" -f results.csv
 📌 Debug mode (prints fetched IDs)
-bash
-Copy
-Edit
 poetry run get-papers-list "breast cancer" -d
 🛠 Tech Stack
 Python 3.10+
